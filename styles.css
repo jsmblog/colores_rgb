@@ -86,7 +86,7 @@ border: none;
     }
   }
   @media screen and (max-width:768px) {
-    .cont{
+    .cont , #display-sms{
         width: 90vw;
     }
     #btn-copy {
