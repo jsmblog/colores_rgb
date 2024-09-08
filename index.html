@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Colores RGB</title>
+</head>
+
+<body>
+    <span id="display-sms">
+        mensaje
+    </span>
+    <div class="cont">
+        <div>
+            <h4 class="red">Rojo (R)</h4>
+            <label><input id="red" type="range" min="0" max="255" value="0" step="1" name=""></label>
+            <br><span id="span-value-R">0</span>
+        </div>
+        <div>
+            <h4 class="green">Verde (G)</h4>
+            <label><input id="green" type="range" min="0" max="255" value="0" step="1" name=""></label>
+            <br><span id="span-value-G">0</span>
+        </div>
+        <div>
+            <h4 class="blue">Azul (B)</h4>
+            <label><input id="blue" type="range" min="0" max="255" value="0" step="1" name=""></label>
+            <br><span id="span-value-B">0</span>
+        </div>
+        <h4 id="TXT">rgb(0,0,0)</h4>
+        <button id="btn-copy">
+            Copiar Color
+        </button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
